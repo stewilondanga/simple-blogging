@@ -131,13 +131,13 @@ blockquote {
   box-sizing: content-box;
 }
 
-/*blockquote p {
+blockquote p {
   line-height: 1.2;
   padding-left: 25px;
   font-style: italic;
 }
 
-blockquote p:first-letter {
+/*blockquote p:first-letter {
   font-size: 22px;
 }
 

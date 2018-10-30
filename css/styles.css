@@ -166,13 +166,13 @@ li {
   margin-bottom: 5px;
 }
 
-/*ol {
+ol {
   margin-top: 10px;
   margin-bottom: 10px;
   list-style-type: lower-latin;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }

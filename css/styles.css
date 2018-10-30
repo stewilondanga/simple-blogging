@@ -162,11 +162,11 @@ ul {
   list-style-position: inside;
 }
 
-/*li {
+li {
   margin-bottom: 5px;
 }
 
-ol {
+/*ol {
   margin-top: 10px;
   margin-bottom: 10px;
   list-style-type: lower-latin;

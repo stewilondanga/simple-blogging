@@ -141,14 +141,14 @@ blockquote p:first-letter {
   font-size: 22px;
 }
 
-/*blockquote:before, blockquote:after {
+blockquote:before, blockquote:after {
   position: absolute;
   right: 20px;
   font-size: 50px;
   line-height: 0;
 }
 
-blockquote:before {
+/*blockquote:before {
   content: open-quote;
   top: 35px;
 }

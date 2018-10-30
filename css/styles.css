@@ -109,12 +109,12 @@ em {
   color: #d5d0d1;
 }
 
-/*p {
+p {
   line-height: 1.4;
   text-align: justify;
 }
 
-blockquote {
+/*blockquote {
   box-sizing: border-box;
   padding: 20px 60px 20px calc((100vw - 800px) / 2);
   display: block;

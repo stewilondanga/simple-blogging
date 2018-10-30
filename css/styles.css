@@ -83,11 +83,11 @@ p:nth-child(2) {
   color: #d5d0d1;
 }
 
-/*p:nth-child(2) em {
+p:nth-child(2) em {
   color: #d5d0d1;
 }
 
-img {
+/*img {
   width: 50vw;
   height: 90vh;
   -o-object-fit: cover;

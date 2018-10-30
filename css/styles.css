@@ -153,12 +153,12 @@ blockquote:before {
   top: 35px;
 }
 
-/*blockquote:after {
+blockquote:after {
   content: close-quote;
   bottom: 10px;
 }
 
-ul {
+/*ul {
   list-style-position: inside;
 }
 

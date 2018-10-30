@@ -87,7 +87,7 @@ p:nth-child(2) em {
   color: #d5d0d1;
 }
 
-/*img {
+img {
   width: 50vw;
   height: 90vh;
   -o-object-fit: cover;
@@ -97,7 +97,7 @@ p:nth-child(2) em {
   right: 0;
 }
 
-h2~* {
+/*h2~* {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;

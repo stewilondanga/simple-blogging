@@ -1,4 +1,6 @@
-body {
+@import url("https://fonts.googleapis.com/css?family=Vidaloka");
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -10,6 +12,7 @@ body {
   position: absolute;
   top: 25px;
   left: 25px;
+  z-index: 25;
 }
 
 .my_social a {
@@ -19,6 +22,163 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono");
+body {
+  max-width: 100%;
+  font-family: "Fira Mono", monospace;
+  color: #221e1f;
+  background: #f2f2f2;
+}
+
+h1, h2, h3 {
+  font-family: "Vidaloka", serif;
+}
+
+h1 {
+  display: flex;
+  align-items: flex-end;
+  background: #d22a21;
+  color: #f2f2f2;
+  font-size: 9vw;
+  text-transform: lowercase;
+  margin: 0;
+  width: 50vw;
+  height: 90vh;
+  padding: 15px 15px 2.5vw;
+  box-sizing: border-box;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 50px auto 20px;
+  max-width: 800px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h3:before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #d22a21;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -40px;
+}
+
+p:nth-child(2) {
+  display: block;
+  width: 50vw;
+  margin: 0;
+  font-size: 1vw;
+  margin-top: -6px;
+  padding-left: 5vw;
+  box-sizing: border-box;
+  -webkit-transform: translatey(-100%);
+  transform: translatey(-100%);
+  color: #d5d0d1;
+}
+
+p:nth-child(2) em {
+  color: #d5d0d1;
+}
+
+img {
+  width: 50vw;
+  height: 90vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h2~* {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+em {
+  color: #d5d0d1;
+}
+
+p {
+  line-height: 1.4;
+  text-align: justify;
+}
+
+blockquote {
+  box-sizing: border-box;
+  padding: 20px 60px 20px calc((100vw - 800px) / 2);
+  display: block;
+  position: relative;
+  color: #f2f2f2;
+  background: #d5d0d1;
+  width: 50vw;
+  margin-left: 0;
+  text-align: right;
+  font-family: "Vidaloka", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 3px solid #d22a21;
+  box-sizing: content-box;
+}
+
+blockquote p {
+  line-height: 1.2;
+  padding-left: 25px;
+  font-style: italic;
+}
+
+blockquote p:first-letter {
+  font-size: 22px;
+}
+
+blockquote:before, blockquote:after {
+  position: absolute;
+  right: 20px;
+  font-size: 50px;
+  line-height: 0;
+}
+
+blockquote:before {
+  content: open-quote;
+  top: 35px;
+}
+
+blockquote:after {
+  content: close-quote;
+  bottom: 10px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: lower-latin;
 }
 
 .containers {

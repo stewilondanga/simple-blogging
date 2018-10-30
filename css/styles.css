@@ -148,12 +148,12 @@ blockquote:before, blockquote:after {
   line-height: 0;
 }
 
-/*blockquote:before {
+blockquote:before {
   content: open-quote;
   top: 35px;
 }
 
-blockquote:after {
+/*blockquote:after {
   content: close-quote;
   bottom: 10px;
 }
